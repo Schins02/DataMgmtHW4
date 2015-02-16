@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC212A68-4D67-3AAC-D266-B66B81701B6E" name="SIM_Project_rel">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:57:32 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="proj_rel_id" id="6787A92A-5E45-A384-C8CB-F401D3544821">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:57:53 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="C312BDF7-D8D7-B5C6-170B-EADB997AD3CB">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:58:41 UTC</createdTime>
+<generatorID>83C5ABDE-D22C-C8F2-6C43-8753B64B126B</generatorID>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<referedAttribute>E019801E-EBB9-06AE-6EF9-DB47AE7CA15E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6140F40-A804-1C91-2D4F-2884BE82CB07" name="{entity} PK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:59:52 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6787A92A-5E45-A384-C8CB-F401D3544821</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0B03409-C482-0709-67A8-9DDDBD0F4140" name="SIM_Project">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:58:59 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="05730CE1-DA8E-90B4-9740-0C9F6272BDD8">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:59:16 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="3820162F-F156-BB98-0DE6-A0DD894963F2">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:59:28 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="proj_rel_id" id="DD3EAE3D-DC22-0C94-71CB-D883C013F3C8">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 18:25:18 UTC</createdTime>
+<generatorID>AEC48B69-AB90-242E-1680-1E1847F463B2</generatorID>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<referedAttribute>6787A92A-5E45-A384-C8CB-F401D3544821</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="BE04FACF-D44F-1517-5063-4482F4DCF42A">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 18:25:51 UTC</createdTime>
+<generatorID>C72459D5-9DD3-525A-F15C-221DC2A58D84</generatorID>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<referedAttribute>77EB9690-41AA-A962-FC83-31F193EFFE04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72E1130C-F443-B9FB-8860-8106DC9C81D6" name="{entity} PK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-02-15 17:59:25 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05730CE1-DA8E-90B4-9740-0C9F6272BDD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
