@@ -27,15 +27,13 @@ BEGIN
 		SALARY,
 		STATUS,
 		TITLE,
-		RATING ,
-        DEPT_ID
-
+		RATING
         )
      VALUES (
         :new.PERSON_ID,
         'project_employee',
         :new.NAME,
-        :new.BIRTH_DATE
+        :new.BIRTH_DATE,
         :new.GENDER,
         :new.ADDRESS,
         :new.CITY,
@@ -46,8 +44,7 @@ BEGIN
 		:new.SALARY,
 		:new.STATUS,
 		:new.TITLE,
-		:new.RATING
-        :new.DEPT_ID) ;
+		:new.RATING) ;
 END;
 /
 
@@ -77,14 +74,13 @@ BEGIN
 		SALARY,
 		STATUS,
 		TITLE,
-		BONUS,
-        DEPT_ID1 
+		BONUS
         )
      VALUES (
         :new.PERSON_ID,
         'manager',
         :new.NAME,
-        :new.BIRTH_DATE
+        :new.BIRTH_DATE,
         :new.GENDER,
         :new.ADDRESS,
         :new.CITY,
@@ -95,8 +91,7 @@ BEGIN
 		:new.SALARY,
 		:new.STATUS,
 		:new.TITLE,
-		:new.BONUS
-        :new.DEPT_ID1) ;
+		:new.BONUS) ;
 END;
 /
 
