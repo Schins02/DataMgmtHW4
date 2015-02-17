@@ -37,8 +37,8 @@ CREATE
     title             VARCHAR2 (255) ,
     rating            VARCHAR2 (255) ,
     bonus             INTEGER ,
-    SIM_dept_dept_id  INTEGER NOT NULL ,
-    SIM_dept_dept_id1 INTEGER NOT NULL
+    SIM_dept_dept_id  INTEGER  ,
+    SIM_dept_dept_id1 INTEGER 
   ) ;
 CREATE UNIQUE INDEX SIM_Person__IDX ON SIM_Person
   (

@@ -4,7 +4,7 @@ drop view sim_manager ;
 create view sim_project_emp as SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE,
 GENDER, ADDRESS, CITY, STATE, ZIP, SSNUM,
 HIRE_DATE, SALARY, STATUS, TITLE,
-RATING FROM SIM_PERSON
+RATING, SIM_DEPT_DEPT_ID FROM SIM_PERSON
 WHERE TYPE = 'project_employee' ;
 
 
@@ -27,7 +27,8 @@ BEGIN
 		SALARY,
 		STATUS,
 		TITLE,
-		RATING
+		RATING,
+        SIM_DEPT_DEPT_ID
         )
      VALUES (
         :new.PERSON_ID,
@@ -44,7 +45,8 @@ BEGIN
 		:new.SALARY,
 		:new.STATUS,
 		:new.TITLE,
-		:new.RATING) ;
+		:new.RATING,
+        :new.SIM_DEPT_DEPT_ID) ;
 END;
 /
 
@@ -52,14 +54,14 @@ create view sim_manager as
 SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE,
 GENDER, ADDRESS, CITY, STATE, ZIP, SSNUM,
 HIRE_DATE, SALARY, STATUS, TITLE,
-BONUS FROM SIM_PERSON
+BONUS, SIM_DEPT_DEPT_ID1 FROM SIM_PERSON
 WHERE TYPE = 'manager' ;
 
 create or replace TRIGGER manager_trigger
      INSTEAD OF insert ON sim_manager
      FOR EACH ROW
 BEGIN
-     insert into sim_manager(
+     insert into sim_person(
         PERSON_ID,
         TYPE,
         NAME,
@@ -74,7 +76,8 @@ BEGIN
 		SALARY,
 		STATUS,
 		TITLE,
-		BONUS
+		BONUS,
+        SIM_DEPT_DEPT_ID1
         )
      VALUES (
         :new.PERSON_ID,
@@ -91,7 +94,8 @@ BEGIN
 		:new.SALARY,
 		:new.STATUS,
 		:new.TITLE,
-		:new.BONUS) ;
+		:new.BONUS,
+        :new.SIM_DEPT_DEPT_ID1) ;
 END;
 /
 
