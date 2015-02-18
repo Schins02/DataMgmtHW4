@@ -5,7 +5,7 @@ create view sim_project_emp as SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE,
 GENDER, ADDRESS, CITY, STATE, ZIP, SSNUM,
 HIRE_DATE, SALARY, STATUS, TITLE,
 RATING, SIM_DEPT_DEPT_ID FROM SIM_PERSON
-WHERE TYPE = 'project_employee' ;
+WHERE TYPE = 'Project Employee' ;
 
 
 create or replace TRIGGER project_emp_trigger
@@ -32,7 +32,7 @@ BEGIN
         )
      VALUES (
         :new.PERSON_ID,
-        'project_employee',
+        'Project Employee',
         :new.NAME,
         :new.BIRTH_DATE,
         :new.GENDER,
@@ -55,7 +55,7 @@ SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE,
 GENDER, ADDRESS, CITY, STATE, ZIP, SSNUM,
 HIRE_DATE, SALARY, STATUS, TITLE,
 BONUS, SIM_DEPT_DEPT_ID1 FROM SIM_PERSON
-WHERE TYPE = 'manager' ;
+WHERE TYPE = 'Manager' ;
 
 create or replace TRIGGER manager_trigger
      INSTEAD OF insert ON sim_manager
@@ -81,7 +81,7 @@ BEGIN
         )
      VALUES (
         :new.PERSON_ID,
-        'manager',
+        'Manager',
         :new.NAME,
         :new.BIRTH_DATE,
         :new.GENDER,
