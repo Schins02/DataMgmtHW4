@@ -168,3 +168,5 @@ DROP INDEX SIM_Person_person_id_FK_3 ;
 CREATE INDEX SIM_Person_person_id_FK_3 ON SIM_Project_rel(SIM_Person_person_id) ;
 DROP INDEX SIM_Project_project_id_FK_4 ;
 CREATE INDEX SIM_Project_project_id_FK_4 ON SIM_Project_rel(SIM_Project_project_id) ;
+DROP INDEX SIM_Person_person_id_FK_5 ;
+CREATE INDEX SIM_Person_person_id_FK_5 ON SIM_dept(SIM_Person_person_id) ;

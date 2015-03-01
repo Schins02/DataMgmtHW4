@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54B7451C-9060-0427-AE2C-465E6ABF86A2" name="SIM_dept">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>A0F09CAC-EC96-E168-14DD-0490F9D28462</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="A3455E0F-822E-FD9C-0D30-80B0B7863667">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>77EB9690-41AA-A962-FC83-31F193EFFE04</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4BD0919F-714E-C62D-41B1-B36DAFA20E46">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>8F86E521-3A28-4E55-ACA6-1B9AD866E172</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="79FD4F6D-F3C9-17F7-608E-FC764E13CC7E">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>CC43A81A-0EF4-A9C1-6F1D-24E661E7081F</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_id" id="6D6EF398-E940-A770-E4E4-F676B0B42245">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>5B2804F1-F7EE-2C97-C5F5-71AE06BAEE98</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="1028018A-EB4E-D90F-39A1-D0FB97EB7EFF">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>BBB09BE4-4629-6F8F-1374-CF0D1B177052</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>167DFFFD-5726-A731-8D60-F6477EA2A3EE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9259EEF5-58D0-8253-94C4-ED6C87D5F0BB" referredColumn="167DFFFD-5726-A731-8D60-F6477EA2A3EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01EBF560-B59A-AF62-C097-74EECAD1F096" name="SIM_dept_PK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>2AF48FED-CEC6-CF4A-B8F4-4C7BDEF03549</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3455E0F-822E-FD9C-0D30-80B0B7863667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F923040-DE46-EF15-0064-1CE1FF2FBD2A" name="SIM_dept__IDX">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1028018A-EB4E-D90F-39A1-D0FB97EB7EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="022E961A-983D-BBE2-DC43-774536EBFFD5" name="SIM_dept_SIM_Person_FK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1028018A-EB4E-D90F-39A1-D0FB97EB7EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

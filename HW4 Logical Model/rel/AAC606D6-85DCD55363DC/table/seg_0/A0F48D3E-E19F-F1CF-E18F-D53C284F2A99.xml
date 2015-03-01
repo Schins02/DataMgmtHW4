@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0F48D3E-E19F-F1CF-E18F-D53C284F2A99" name="SIM_Person">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>F77DEC33-DB35-3341-9BFD-7693D5E782A3</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="167DFFFD-5726-A731-8D60-F6477EA2A3EE">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>E019801E-EBB9-06AE-6EF9-DB47AE7CA15E</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F066E480-9E6A-E16E-360E-B54A9CAA5E05">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>70CF5CAC-692F-70B5-DA9E-5196D3233CEB</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="7D1B29F7-1BB2-64DC-C0B5-012CCE1EF5DE">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>190BFF7D-B4C7-97B4-9A88-66C839000F6F</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="6A1D46AF-6EDF-8E66-2937-CF6EC7D58205">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>B3AEC81E-4EB3-D7AD-3FBB-4C8A7B14C656</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="278DA893-499F-65E3-8002-5FE09F1FF32D">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>93F0F4FB-D13C-9901-BB27-EBD1E3D654F3</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="0845CCB5-CFA3-6B71-AB79-FFB5F57BF850">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>50628177-9A76-74C2-62DA-3415E37C8DAA</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="68980D7D-6EAC-5A33-CFA9-E0F1E9F1B387">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>ED5AC642-71D7-2CDA-51A7-E4C3C9664E55</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="FAF0B5A3-E1A5-10C4-9D1F-39544DEE58E7">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>9114FC9B-8815-9894-0CF1-576EB29DD565</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="13F30972-4C0A-710A-BB42-774B875DC57C">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>3EC61290-276E-3E32-4F6B-47CD72653ADE</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="E75273E8-0A96-BB42-B5A8-82F6E14D8985">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>55E2051E-DC48-8010-6F60-22FEE6DF2434</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id" id="A8C2B44C-D165-1801-5DE4-6D052FA6BC30">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>F786174F-C905-E690-4EF1-78D903795D9F</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="31F5AB5D-2865-FE09-CA5F-0420D2B7CD25">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>67B78627-4F0A-43E8-9D50-13F6E81E5198</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="BC53903F-8C00-70B8-269E-065DEDD435A6">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>06B05353-CFF4-F5E8-2734-89DEAEE53CFB</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="ABD12CF3-C5F1-9A47-D10C-6A427D8BF480">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>1DE97911-E317-10CE-5CCF-6DD7ACA29816</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="125CD708-6F8C-685C-7CC4-A50B7BCEC640">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>1BD31853-6685-9BCD-6065-880F52CFEADA</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="29160E43-0063-63B7-4254-825E2D455F51">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>334BF1C8-5D19-1D60-9C63-81A1C1285E5D</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="A4F0EF35-B670-846D-94D8-CA72885CD776">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>7520F165-71FE-C3DE-02B3-24B705408A9F</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="913CA86A-73FC-6C0A-A5D2-39D3E0EDC449">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>99531592-9CBE-48C5-667C-41FAA034FA27</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A3455E0F-822E-FD9C-0D30-80B0B7863667</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FDA0D2B-7696-65ED-8E26-8ACF1E33F3EE" referredColumn="A3455E0F-822E-FD9C-0D30-80B0B7863667"/>
+</associations>
+</Column>
+<Column name="SIM_dept_dept_id1" id="5DDB4DF4-6C71-DD89-26B9-95B579C102D3">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>8E2A8F90-154C-F8DD-0797-A506BAA5D1CD</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A3455E0F-822E-FD9C-0D30-80B0B7863667</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08E89C04-C8C0-79B2-BE7C-59F6A1DFA814" referredColumn="A3455E0F-822E-FD9C-0D30-80B0B7863667"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BAD331C-4995-C480-E2C7-7CFE0BF64628" name="SIM_Person_PK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>BF0F4D76-9A06-62A4-1C2A-7F31ADE6FB26</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167DFFFD-5726-A731-8D60-F6477EA2A3EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4D0E75F-79A8-2B3B-AF4F-E72C2EBB0BA6" name="SIM_Person__IDX">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5DDB4DF4-6C71-DD89-26B9-95B579C102D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="036E46CB-4905-9A9C-C161-FA4964B7C12A" name="SIM_Person_SIM_dept_FK">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>C6A1A28D-BDE2-2798-807A-70EA6A9D38C0</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="913CA86A-73FC-6C0A-A5D2-39D3E0EDC449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="510ED696-3AD4-6C25-FE78-41B4B86F61BB" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 16:24:01 UTC</createdTime>
+<generatorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DDB4DF4-6C71-DD89-26B9-95B579C102D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
