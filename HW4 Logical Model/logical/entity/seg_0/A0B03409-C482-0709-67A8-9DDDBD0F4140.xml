@@ -39,19 +39,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="proj_rel_id" id="DD3EAE3D-DC22-0C94-71CB-D883C013F3C8">
-<createdBy>johnschindler</createdBy>
-<createdTime>2015-02-15 18:25:18 UTC</createdTime>
-<generatorID>AEC48B69-AB90-242E-1680-1E1847F463B2</generatorID>
-<ownerDesignName>HW4</ownerDesignName>
-<engineerTo>
-<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
-</engineerTo>
-<referedAttribute>6787A92A-5E45-A384-C8CB-F401D3544821</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 <Attribute name="dept_id" id="BE04FACF-D44F-1517-5063-4482F4DCF42A">
 <createdBy>johnschindler</createdBy>
 <createdTime>2015-02-15 18:25:51 UTC</createdTime>

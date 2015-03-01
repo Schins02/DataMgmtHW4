@@ -226,27 +226,29 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="dept_id" id="53F41B40-BD58-49D7-E57D-3585E40AD3B2">
+<Attribute name="dept_id" id="99531592-9CBE-48C5-667C-41FAA034FA27">
 <createdBy>johnschindler</createdBy>
-<createdTime>2015-02-15 18:03:05 UTC</createdTime>
-<generatorID>4C70F6C9-384E-BDE1-08CC-F79E0A2321CC</generatorID>
-<ownerDesignName>HW4</ownerDesignName>
+<createdTime>2015-03-01 07:57:01 UTC</createdTime>
+<generatorID>C6A1A28D-BDE2-2798-807A-70EA6A9D38C0</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
 <engineerTo>
 <item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>77EB9690-41AA-A962-FC83-31F193EFFE04</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="dept_id1" id="5AFCEEC3-76CA-B169-AA06-9D21334C55A7">
+<Attribute name="dept_id1" id="8E2A8F90-154C-F8DD-0797-A506BAA5D1CD">
 <createdBy>johnschindler</createdBy>
-<createdTime>2015-02-15 18:21:54 UTC</createdTime>
-<generatorID>1B3EB0C5-E308-46C6-629D-CFAD9A937449</generatorID>
-<ownerDesignName>HW4</ownerDesignName>
+<createdTime>2015-03-01 07:57:22 UTC</createdTime>
+<generatorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
 <engineerTo>
 <item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>77EB9690-41AA-A962-FC83-31F193EFFE04</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

@@ -51,6 +51,34 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
+<Attribute name="person_id" id="5B2804F1-F7EE-2C97-C5F5-71AE06BAEE98">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 07:02:28 UTC</createdTime>
+<generatorID>0FD1D3FA-2BD1-C2C8-E034-F51E31E6D02A</generatorID>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E019801E-EBB9-06AE-6EF9-DB47AE7CA15E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id1" id="BBB09BE4-4629-6F8F-1374-CF0D1B177052">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 07:57:25 UTC</createdTime>
+<generatorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E019801E-EBB9-06AE-6EF9-DB47AE7CA15E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2AF48FED-CEC6-CF4A-B8F4-4C7BDEF03549" name="{entity} PK">
