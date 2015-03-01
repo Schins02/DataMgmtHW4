@@ -39,14 +39,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="dept_id" id="BE04FACF-D44F-1517-5063-4482F4DCF42A">
+<Attribute name="dept_id" id="A2E78331-86C7-12C4-D495-3DB04AA1074F">
 <createdBy>johnschindler</createdBy>
-<createdTime>2015-02-15 18:25:51 UTC</createdTime>
-<generatorID>C72459D5-9DD3-525A-F15C-221DC2A58D84</generatorID>
-<ownerDesignName>HW4</ownerDesignName>
+<createdTime>2015-03-01 16:21:10 UTC</createdTime>
+<generatorID>B1C635E9-6ED7-C2DA-80B6-BCC473FE45ED</generatorID>
+<ownerDesignName>HW4 Logical Model</ownerDesignName>
 <engineerTo>
 <item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>77EB9690-41AA-A962-FC83-31F193EFFE04</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
