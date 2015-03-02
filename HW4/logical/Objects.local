@@ -5,8 +5,8 @@
    <object objectType="Entity" objectID="FC212A68-4D67-3AAC-D266-B66B81701B6E" name="SIM_Project_rel" seqName="seg_0"/>
    <object objectType="Entity" objectID="A0F09CAC-EC96-E168-14DD-0490F9D28462" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Relation" objectID="83C5ABDE-D22C-C8F2-6C43-8753B64B126B" name="Relation_1" seqName="seg_0"/>
-   <object objectType="Relation" objectID="B30D8626-73FC-0F62-CD1A-40432068E302" name="Relation_10" seqName="seg_0"/>
-   <object objectType="Relation" objectID="0FD1D3FA-2BD1-C2C8-E034-F51E31E6D02A" name="Relation_11" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C72459D5-9DD3-525A-F15C-221DC2A58D84" name="Relation_8" seqName="seg_0"/>
-   <object objectType="Relation" objectID="F9678892-A269-7F8D-BA25-86C96F58F4AD" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0A87173A-0752-3151-D06A-C30397451BEC" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C6A1A28D-BDE2-2798-807A-70EA6A9D38C0" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B1C635E9-6ED7-C2DA-80B6-BCC473FE45ED" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="842DF75A-0FBC-0FED-ADE9-1770965EDE31" name="Relation_9" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

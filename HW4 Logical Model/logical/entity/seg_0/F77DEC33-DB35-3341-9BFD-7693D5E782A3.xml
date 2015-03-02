@@ -230,7 +230,7 @@
 <createdBy>johnschindler</createdBy>
 <createdTime>2015-03-01 07:57:01 UTC</createdTime>
 <generatorID>C6A1A28D-BDE2-2798-807A-70EA6A9D38C0</generatorID>
-<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<ownerDesignName>HW4</ownerDesignName>
 <engineerTo>
 <item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
 </engineerTo>
@@ -244,12 +244,24 @@
 <createdBy>johnschindler</createdBy>
 <createdTime>2015-03-01 07:57:22 UTC</createdTime>
 <generatorID>842DF75A-0FBC-0FED-ADE9-1770965EDE31</generatorID>
-<ownerDesignName>HW4 Logical Model</ownerDesignName>
+<ownerDesignName>HW4</ownerDesignName>
 <engineerTo>
 <item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>77EB9690-41AA-A962-FC83-31F193EFFE04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="manager_id" id="A9C8727B-9231-C5ED-2BC0-11D73F888AC5">
+<createdBy>johnschindler</createdBy>
+<createdTime>2015-03-01 20:02:49 UTC</createdTime>
+<ownerDesignName>HW4</ownerDesignName>
+<engineerTo>
+<item key="AAC606D6-CCD9-37B5-96A9-85DCD55363DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
